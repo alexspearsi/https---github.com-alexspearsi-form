@@ -1,0 +1,100 @@
+body {
+    background-color: #0f0f13;
+    overflow: hidden;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    background-color: #1E1F29;
+    border-radius: 10px;
+    padding: 48px;
+    width: 315px;
+}
+
+h1 {
+    color: #FAFAFA;
+    font-size: 32cpx;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin: 0 7px32px 0;
+}
+
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+input, textarea, select {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 212px;
+
+}
+
+textarea {
+    padding-left: 24px;
+    display: inline-block;
+    height: 60px;
+    width: 234px;
+    resize: none;
+}
+
+
+select {
+    display: inline-block;
+    width: 307px;
+}
+
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: #4a4863;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #AFB2BF;
+}
+
+button {
+    background-color: #6c38cc;
+    color: #fafafa;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    width: 307px;
+    cursor: pointer;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
